@@ -1,0 +1,58 @@
+html {
+  background-color: #f1f1f1;
+}
+.topnav {
+  overflow: hidden;
+  font-family: "Courier New", Courier, monospace;
+  margin: 5em;
+}
+
+.topnav em.degree-name {
+  color: black;
+}
+
+.topnav em.school-name {
+  font-size: 14px;
+  text-decoration: none;
+  float: left;
+  color: #cc5500;
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: gray;
+}
+
+.topnav a.active {
+  color: #b11226;
+}
+
+.topnav a.active:hover {
+  color: black;
+}
+
+.split-left {
+  float: left;
+  width: 37%;
+  margin: 5em;
+}
+
+.split-right {
+  float: left;
+  width: 37%;
+  margin: 5em;
+}
+
+/* Use Nodemailer and JavaScript for the contact block*/
+.contact {
+  margin-left: auto;
+  margin-right: auto;
+}
